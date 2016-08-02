@@ -1,6 +1,6 @@
 
 ---
-baseurl: "http://mrkeelan.github.io/"
+baseurl: "https://mrkeelan.github.io/"
 languageCode: "en-us"
 title: "Matthew Keelan Blog"
 theme: "hyde-x"
