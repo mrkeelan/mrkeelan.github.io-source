@@ -7,8 +7,8 @@ deploy:
     steps:
         - install-packages:
             packages: git ssh-client
-        - leipert/git-push@0.7.6:
+        - leipert/git-push:
             gh_oauth: $GIT_TOKEN
-            gh_pages: true
-            gh_pages_domain: mrkeelan.github.io
+            repo: mrkeelan/mrkeelan.github.io
+            branch: master
             basedir: public
