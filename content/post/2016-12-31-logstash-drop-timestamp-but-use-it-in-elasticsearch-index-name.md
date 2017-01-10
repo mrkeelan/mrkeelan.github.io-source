@@ -7,14 +7,13 @@ image: ""
 menu: ""
 share: true
 categories:
-  - tech
-  - logstash
+  - technology
 date: 2016-12-31T14:29:51-06:00
 description: ""
 tags: 
   - logstash
   - elasticsearch
-postsummary: If you want to store data coming from logstash in an elasticsearch index with the date as a suffix, like logstash-2016.12.31, that's easily acheivable.  But what if you don't want to send the @timestamp field to elasticsearch?
+summary: If you want to store data coming from logstash in an elasticsearch index with the date as a suffix, like logstash-2016.12.31, that's easily acheivable.  But what if you don't want to send the @timestamp field to elasticsearch?
 title: Logstash drop @timestamp but still use it in elasticsearch index name
 share: true
 slug: logstash-drop-timestamp-but-still-use-it-in-elasticserach-index-name

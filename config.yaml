@@ -1,18 +1,86 @@
-
----
-baseurl: "https://mrkeelan.github.io/"
+baseurl: https://mrkeelan.github.io/
 languageCode: "en-us"
-title: "Matthew Keelan Blog"
-theme: "hyde-x"
+title: Matthew Keelan
+theme: "academic"
+canonifyurls: true
+paginate: 10
+DisqusShortname: "matthewkeelan"
 metaDataFormat: "yaml"
-taxonomies:
-  category: "categories"
-author:
-  name: "Matthew Keelan"
+googleAnalytics: "UA-90018551-1"
+
 params:
-  tagline: "A Blog about nothing"
-  #googleAnalytics: "UA-60318539-2"
-  #gravatarHash: "15cb4683f9aa1f015998d230b61b0ef7"
-  copyright: "Matthew Keelan."
-  twitter: "https://twitter.com/mrkeelan"
-  github: "https://github.com/mrkeelan"
+  description: "Professional website of Matthew Keelan"
+  cover: "images/main-hero.jpg"
+  logo: ""
+  githubName: "mrkeelan"
+  name: "Matthew Keelan"
+  role: "Developer / Data Architect"
+  avatar: "img/logo.png"
+
+
+  # Enable Keybase in Contact section by entering your keybase.io username.
+  keybase: ""
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format: "Mon, Jan 2, 2006"
+
+  # Enable global LaTeX math rendering?
+  #   If false, you can enable it locally on a per page basis.
+  math: false
+
+  # Enable native social sharing buttons?
+  sharing: true
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css: []
+  custom_js: []
+
+
+  social:
+    - icon: "twitter-square"
+      icon_pack: "fa"
+      link: "//twitter.com/mrkeelan"
+    - icon: "github-square"
+      icon_pack: "fa"
+      link: "//github.com/mrkeelan"
+    - icon: "linkedin-square"
+      icon_pack: "fa"
+      link: https://www.linkedin.com/in/matthewkeelan
+
+permalinks:
+  post: /:year/:month/:slug/
+
+blackfriday:
+  extensions:
+    - hardLineBreak
+
+menu:
+  main:
+    - name: "Home"
+      url: "#about"
+      weight: 1
+    - name: "Posts"
+      url: "#posts"
+      weight: 2
+
+
+
+  # Social/Academic Networking
+  #
+  # Icon pack "fa" includes the following social network icons:
+  #
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
+  #   youtube, instagram, soundcloud
+  #
+  #   For email icon, use "fa" icon pack, "envelope" icon, and
+  #   "mailto:your@email.com" as the link.
+  #
+  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #
+  # Icon pack "ai" includes the following academic network icons:
+  #
+  #   google-scholar, arxiv, orcid, researchgate, mendeley
+  #
+  #   Full list: https://jpswalsh.github.io/academicons/
