@@ -29,7 +29,7 @@ output {
             'elastic02.example.com:9200',  
             'elastic03.example.com:9200'  
         ]
-        index => "logstash-%{+YYY.MM.dd}"  
+        index => "logstash-%{+YYYY.MM.dd}"  
     }
 }
 ```
